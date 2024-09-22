@@ -1,10 +1,6 @@
 # lists in python as name says lists to store a list of values, object etc
 # List can be created with []
-
-def print_with_new_line(text):
-    if text != "":
-        print(text)
-    print("-"*100)
+from utils import print_with_new_line
 
 locations = ["Chennai", "Madurai", "Tricy", "Theni", "Kanchipuram"]
 print_with_new_line(f"Locations list: {locations}")
