@@ -1,0 +1,34 @@
+11
+First character: H
+Last character: d
+In Slicing first index is inclusive and last index is not inclusive
+Starting index 0 and end index 5
+Index from 0 to 5 with slicing text[0:5]: Hello
+Index 0: H, Index 1:  
+----------str.lower() and str.upper()----------
+Convert text to lower case: text.lower()
+Lower case: hello world
+Convert text to upper case: text.upper()
+Upper case: HELLO WORLD
+----------str.lower() and str.upper() ends----------
+
+----------str.count()----------
+We can calculate count of a character or a word in a text using text.count('character/word')
+Count of 'l' in Hello World: 2
+Count of 'World' in Hello World: 1
+count is case sensitive
+----------str.count()----------
+
+----------str.find()----------
+To get the index of a character or word in a text, use text.index('character/word')
+Index of 'l' in Hello World: 2
+Index of 'World' in Hello World: 6
+For a word find returns the starting index of the word
+If a word is not present in text, find returns -1
+Index of 'Universe' in Hello World: -1
+----------str.find()----------
+
+----------str.replace()----------
+Replace takes two arguments: text.replace('old', 'new')
+Old text: Hello World
+New text: Hello Universe
