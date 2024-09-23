@@ -39,7 +39,7 @@ class Employee:
     def fullname(self):
         return f"{self.first} {self.last}"
     
-    def raise_amount(self):
+    def apply_raise(self):
         # By accessing raise_percent with self, this allows subclasses to modify this value
         # This allows us to have different raise_percent for different employees
         return int(self.pay * self.raise_percent)
