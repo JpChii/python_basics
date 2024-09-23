@@ -31,7 +31,7 @@ print(emp2.fullname())
 
 # The above class performs code reusabality with fullname, instead of creating a formmated string for each employee
 # outside class definition, we can just call fullname()
-# The self.attributes inside init are instance attributes
+# The self.attributes inside init are instance variables
 # If we miss to pass self to fullname(self) in class definition, when we call instance.fullname(), we'll get an error that 1 parameter
 # is passed but fullname() doesn't require parameters. This happens because on instance.fullname() call instance get's
 # passes as first parameter to the method.
